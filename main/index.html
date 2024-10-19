@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="../img/tictactoe.png">
+        <link rel="stylesheet" href="../styles.css">
+        <title> Tic Tac Toe</title>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../main/" class="active">Tic-Tac-Toe</a>
+                    <a href="../info/">Information</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1>Tic-Tac-Toe</h1>
+        <p>World's Worst Tic-Tac-Toe Remake</p>
+
+        <div id="playarea">
+            <p id="turnfield">It is 🟣's turn</p>
+            <div class="line">
+                <p class="playtile">🚫</p> 
+                <p class="playtile">🚫</p>
+                <p class="playtile">🚫</p>
+            </div>
+
+            <div class="line">
+                <p class="playtile">🚫</p> 
+                <p class="playtile">🚫</p>
+                <p class="playtile">🚫</p>
+            </div>
+
+            <div class="line">
+                <p class="playtile">🚫</p> 
+                <p class="playtile">🚫</p>
+                <p class="playtile">🚫</p>
+            </div>
+
+            <div id="stats">
+                <p id="gameend">Player has won!</p>
+                <button id="restart">Restart</button>
+            </div>
+        </div>
+        <div id="snddiv">
+            <audio id="draw" src="../snd/draw.mp3"></audio>
+            <audio id="plr1" src="../snd/plr1.mp3"></audio>
+            <audio id="plr2" src="../snd/plr2.mp3"></audio>
+        </div>
+
+        <script src="../js/main.js"></script>
+    </body>
+</html>

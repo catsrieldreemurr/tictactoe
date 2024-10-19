@@ -1,0 +1,59 @@
+body{
+    background-color: #262335;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #171520;
+}
+
+li {
+    display: inline-block;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding:16px 20px;
+}
+
+.active{
+    background-color: #241B2F;
+}
+
+#playarea{
+    margin-top: 3%;
+}
+
+.playtile{
+    margin-top: 0px;
+    padding: 50px 50px;
+    background-color: white;
+    display: inline-block;
+    color: black;
+
+    border: solid black 4px;
+    font-size: 25px;
+}
+
+button{
+    padding: 10px 30px;
+}
+
+#stats{
+    display: none;
+}
+
+.newline{
+    margin-top: 60px;
+}
